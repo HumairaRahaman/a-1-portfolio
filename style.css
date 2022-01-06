@@ -4,11 +4,6 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
-h1 {
-  font-size: 45px;
-  margin-left: 10px;
-  text-align: center;
-}
 
 .clr-org {
   color: orange;
@@ -28,7 +23,11 @@ section {
   width: 50%;
   padding-left: 5%;
 }
-.hero p {
+.head h1 {
+  font-size: 45px;
+  margin-left: 10px;
+}
+.head p {
   margin-bottom: 30px;
 }
 .border {
@@ -48,6 +47,10 @@ section {
   border-radius: 5px;
   color: white;
   font-weight: 700;
+}
+.card h1 {
+  font-size: 45px;
+  text-align: center;
 }
 
 .card-hero {
@@ -73,6 +76,49 @@ section {
 #card-3 {
   background-color: #fff4d6;
 }
-footer p {
+.develop {
+  margin-top: 100px;
+}
+.develop h1 {
+  font-size: 35px;
+}
+.develop p {
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+.develop.hero {
+  padding: 0;
+}
+#develop {
+  background-image: url(images/shapes/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.project {
+  margin-top: 80px;
+  margin-left: 50px;
+}
+.project .hero {
+  padding: 0;
+}
+.project h1 {
+  font-size: 35px;
+}
+.project p {
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+footer {
+  background-color: black;
+  padding: 20px;
+}
+footer h2 {
+  color: white;
+  font-size: 35px;
   text-align: center;
+}
+footer p {
+  color: white;
+  text-align: center;
+  font-size: 15px;
 }
