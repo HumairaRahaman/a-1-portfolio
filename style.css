@@ -14,28 +14,9 @@ section {
 .flexible {
   display: flex;
 }
-/* header */
-.head {
-  padding: 30px;
-  margin-top: 100px;
-}
 .hero {
   width: 50%;
   padding-left: 5%;
-}
-.head h1 {
-  font-size: 45px;
-  margin-left: 10px;
-}
-.head p {
-  margin-bottom: 30px;
-}
-.border {
-  border-left: 5px solid tomato;
-}
-.hero .img {
-  display: flex;
-  justify-content: center;
 }
 .hero img {
   width: 80%;
@@ -48,6 +29,39 @@ section {
   color: white;
   font-weight: 700;
 }
+/* header */
+.head {
+  padding: 30px;
+  margin-top: 100px;
+}
+
+.head h1 {
+  font-size: 45px;
+  margin-left: 10px;
+}
+.head p {
+  margin-bottom: 30px;
+}
+.border {
+  border-left: 5px solid tomato;
+  border-radius: 5px;
+}
+.hero.img-top {
+  background-color: orange;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  width: 35%;
+}
+.hero.img-top img {
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  background-color: beige;
+  border-radius: 50%;
+}
+/* card */
 .card h1 {
   font-size: 45px;
   text-align: center;
@@ -58,8 +72,8 @@ section {
   margin-left: 2%;
   margin-right: 2%;
   padding: 20px;
-  border-radius: 5px;
-  box-shadow: 8px -5px 20px #00000038;
+  border-radius: 10px;
+  box-shadow: 8px -5px 20px #0000001f;
 }
 .card-hero img {
   width: 50%;
@@ -68,14 +82,15 @@ section {
   font-size: 30px;
 }
 #card-1 {
-  background-color: #edf5f6;
+  background-color: #c7eef3;
 }
 #card-2 {
-  background-color: #ffeeee;
+  background-color: #fad5d5;
 }
 #card-3 {
-  background-color: #fff4d6;
+  background-color: #f8e5af;
 }
+/* develop */
 .develop {
   margin-top: 100px;
 }
@@ -108,6 +123,67 @@ section {
   font-size: 15px;
   margin-bottom: 40px;
 }
+/* contact */
+.contact {
+  min-height: 100vh;
+  /* padding: 50px 100px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact .content {
+  width: 800px;
+  text-align: center;
+}
+.contact .content h2 {
+  font-size: 36px;
+
+  font-weight: 700;
+}
+.contact .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .image {
+  width: 60%;
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+}
+.container .image img {
+  background-color: rgba(250, 167, 12, 0.445);
+  border-radius: 30px;
+}
+.contact-form {
+  width: 40%;
+  padding: 40px;
+}
+.contact-form .inputbox {
+  width: 100%;
+  margin-top: 10px;
+}
+.contact-form .inputbox input,
+.contact-form .inputbox textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid tomato;
+  outline: none;
+  resize: none;
+}
+.contact-form .inputbox span {
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  font-size: 20px;
+  pointer-events: none;
+  font-weight: 600;
+}
+/* footer */
 footer {
   background-color: black;
   padding: 20px;
